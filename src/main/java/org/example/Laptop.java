@@ -2,7 +2,6 @@ package org.example;
 
 public class Laptop {
     //This is a class
-
     public int numberOfCores;
 
     public boolean isOne;
@@ -14,10 +13,9 @@ public class Laptop {
         // The ones with "In" is what is being requested e.g. numberOfCoresIn
         // This is the constructor. (Same name as class)
 
-      this.numberOfCores = numberOfCoresIn;
-      this.isOne = isOneIn;
-      this.name = nameIn;
-
+        this.numberOfCores = numberOfCoresIn;
+        this.isOne = isOneIn;
+        this.name = nameIn;
     }
 
 }
